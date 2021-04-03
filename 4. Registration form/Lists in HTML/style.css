@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(https://resources.platform.iplt20.com/photo-resources/2020/02/15/920c309c-a894-4f9a-a702-b9ac34725e38/DMIPL11809.JPG?width=2000&height=1333);
+}
+.ordered{
+    flex: 0 0 35%;
+    background-color: yellow;
+    margin: 20px;
+    padding: 25px;
+}
+.csk, .mi{
+    margin: 0 10px;
+}
+.search{
+    margin:  20px 0 10px;
+}
+.ordered select{
+    background-color: yellow;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+}
+.unordered{
+    color: whitesmoke;
+    flex: 0 0 35%;
+    background-color: rgb(31, 31, 153);
+    margin: 20px;
+    padding: 25px;
+}
+.unordered select{
+    background-color: rgb(31, 31, 153);
+    color: whitesmoke;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    outline: none;
+}
+.dictionary{
+    color: whitesmoke;
+    flex: 0 0 35%;
+    background: rgb(2,0,36);
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(209,14,21,1) 1%, rgba(158,59,59,1) 12%);
+    margin: 20px;
+    padding: 25px;
+}
+.nested{
+    color: whitesmoke;
+    flex: 0 0 35%;
+    background-color: rgb(117, 35, 73);
+    margin: 20px;
+    padding: 25px;
+}

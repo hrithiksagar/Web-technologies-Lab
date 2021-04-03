@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="ordered">
+            <div class="search">
+                <select onchange="csk()" name="selCSK" id="selCSK">
+                    <option value="1">Number</option>
+                    <option value="A">Capital Alphabate</option>
+                    <option value="a">Small Alphabate</option>
+                    <option value="I">Capital Roman Number</option>
+                    <option value="i">Small Roman Number</option>
+                </select>
+            </div>
+            <div class="csk">
+                <h2>Chennai Super Kings</h2>
+                <img src="https://static.india.com/wp-content/uploads/2020/08/MS-Dhoni-with-CSK-Team-Members-@ipl-File-Image.jpg?impolicy=Medium_Resize&w=1200&h=800" alt="CSK" width="300" style="border-radius: 40px;">
+                <ol id="csk">
+                    <li>SHANE WATSON</li>
+                    <li>FAF DU PLESIS</li>
+                    <li>SURESH RAINA</li>
+                    <li>AMBATI RAYDU</li>
+                    <li>MS DHONI</li>
+                    <li>RAVINDRA JADEJA</li>
+                    <li>SAM CURRAN</li>
+                    <li>DEEPAK CHAHAR</li>
+                    <li>KARN SHARMA</li>
+                    <li>SHARDUL THAKUR</li>
+                    <li>IMRAN TAHIR</li>
+                    <li>RUTURAJ GAIKWAD</li>
+                    <li>MITCHELL SANTNER</li>
+                    <li>NARAYAN JAGDEESAN</li>
+                    <li>ROBIN UTHAPPA </li>
+                    <li>JOSH HAZLEWOOD </li>
+                    <li>KM ASIF </li>
+                    <li>LUNGI NGIDI </li>
+                    <li>SAI KISHORE </li>
+                </ol>
+            </div>
+        </div>
+        <div class="unordered">
+            <div class="search">
+                <select onchange="mi()" name="selMI" id="selMI">
+                    <option value="disc">Disc</option>
+                    <option value="square"> Square</option>
+                    <option value="circle">Circle</option>
+                </select>
+            </div>
+            <div class="mi">
+                <h2>Mumbai Indians</h2>
+                <img src="https://i2.wp.com/technosports.co.in/wp-content/uploads/2020/09/EhudYkxVgAIZIRH.jpg?fit=1920%2C1080&ssl=1" alt="MI" width="350" style="border-radius: 40px;">
+                <ul id="mi">
+                    <li>ROHIT SHARMA</li>
+                    <li>QUINTON DE KOCK</li>
+                    <li>ISHAN KISHAN</li>
+                    <li>SURYAKUMAR YADAV</li>
+                    <li>SAURABH TIWARI</li>
+                    <li>HARDIK PANDYA</li>
+                    <li>KIERON POLLARD</li>
+                    <li>KRUNAL PANDYA</li>
+                    <li>RAHUL CHAHAR</li>
+                    <li>JASPRIT BUMRAH</li>
+                    <li>TRENT BOULT</li>
+                    <li>ANMOLPREET SINGH</li>
+                    <li>CHRIS LYNN</li>
+                    <li>ANUKUL ROY</li>
+                    <li>ADITYA TARE</li>
+                    <li>JAYANT YADAV</li>
+                    <li>MOHSIN KHAN</li>
+                    <li>DHAWAL KULKARNI</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dictionary">
+            <h3>IPL Winners</h3>
+            <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/03/22/804660-ipl-2019.jpg" alt="CSK" width="300" style="border-radius: 40px;">
+            <!-- <img src="https://etimg.etb2bimg.com/photo/74508790.cms" alt="CSK" width="300" style="border-radius: 40px;"> -->
+            <dl>
+                <dt>2008</dt>
+                <dd>Rajasthan Royals</dd>
+                <dt>2009</dt>
+                <dd>Deccan Chargers</dd>
+                <dt>2010</dt>
+                <dd>Chennai Super Kings</dd>
+                <dt>2011</dt>
+                <dd>Chennai Super Kings</dd>
+                <dt>2012</dt>
+                <dd>Kolkata Knight Riders</dd>
+                <dt>2013</dt>
+                <dd>Mumbai Indians</dd>
+                <dt>2014</dt>
+                <dd>Kolkata Knight Riders</dd>
+                <dt>2015</dt>
+                <dd>Mumbai Indians</dd>
+                <dt>2016</dt>
+                <dd>Sunrisers Hyderabad</dd>
+                <dt>2017</dt>
+                <dd>Mumbai Indians</dd>
+                <dt>2018</dt>
+                <dd>Chennai Super Kings</dd>
+                <dt>2019</dt>
+                <dd>Mumbai Indians</dd>
+                <dt>2020</dt>
+                <dd>Mumbai Indians</dd>
+            </dl>
+        </div>
+        <div class="nested">
+            <h3>Openers of Team</h3>
+            <img src="https://www.insidesport.co/wp-content/uploads/2019/09/IPL-1.jpg" alt="CSK" width="300" style="border-radius: 40px;">
+            <ul>
+                <li>CSK
+                    <ol style="list-style-type: armenian;">
+                        <li>RUTURAJ GAIKWAD</li>
+                        <li>FAF DU PLESIS</li>
+                    </ol>
+                </li>
+                <li>MI
+                    <ol style="list-style-type: cjk-ideographic;">
+                        <li>ROHIT SHARMA</li>
+                        <li>QUINTON DE KOCK</li>
+                    </ol>
+                </li>
+                <li>SRH
+                    <ol style="list-style-type: georgian;">
+                        <li>DAVID WARNER</li>
+                        <li>JOHNY BAIRSTOW</li>
+                    </ol>
+                </li>
+                <li>DC
+                    <ol style="list-style-type: hiragana;">
+                        <li>PRITHVI SHAW</li>
+                        <li>SHIKHAR DHAWAN</li>
+                    </ol>
+                </li>
+                <li>RR
+                    <ol style="list-style-type: katakana;">
+                        <li>YASHASVI JAISWAL</li>
+                        <li>JOS BUTLER</li>
+                    </ol>
+                </li>
+                <li>KKR
+                    <ol style="list-style-type: hebrew;">
+                        <li>SHUBHMAN GILL</li>
+                        <li>RAHUL TRIPATHI</li>
+                    </ol>
+                </li>
+                <li>RCB
+                    <ul type="square">
+                        <li>DEVDUTT PADIKKAL</li>
+                        <li>VIRAT KOHLI</li>
+                    </ul>
+                </li>
+                <li>PK
+                    <ul>
+                        <li>KL RAHUL</li>
+                        <li>MAYANK AGGARWAL</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script>
+    function csk() {
+        let selCSK = document.getElementById('selCSK');
+        let csk = document.getElementById('csk');
+        csk.setAttribute('type',selCSK.value )
+    }
+    function mi() {
+        let selMI = document.getElementById('selMI');
+        let mi = document.getElementById('mi');
+        mi.setAttribute('type',selMI.value )
+    }
+</script>
+
+</html>

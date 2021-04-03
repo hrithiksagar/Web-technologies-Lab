@@ -1,0 +1,30 @@
+body{
+	font-family: "Montserrat", sans-serif;
+	color: hsl(0, 0%, 38%);
+	background-color: hsl(44, 25%, 90%);
+	font-size:16px;
+}
+
+h3{
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-size: 22px;
+}
+
+ul{
+	list-style-type: circle;
+}
+
+.banner {
+   max-width: 100%;
+   max-height: 10%;
+   margin: auto;
+  }
+
+  .roman {
+  	list-style-type: lower-roman;	
+  }
+
+  .gigs {
+  	list-style-type: disc; 
+  }

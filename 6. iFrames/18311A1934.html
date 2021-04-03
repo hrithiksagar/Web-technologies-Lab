@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title> Matrices switch case</title>
+	</head>
+	<body>
+		<script>
+			var i=0,j=0,k=0,sum=0;
+x=new Array();
+x[0]=new Array();
+x[1]=new Array();
+x[2]=new Array();
+for(i=0;i<2;i++)
+{
+	document.write("<br>");
+	for(j=0;j<2;j++)
+	{
+		x[i][j]=parseInt(prompt("enter the interger for x"));
+	}
+	document.write(x[i]);
+}
+document.write("<br>");
+y=new Array();
+y[0]=new Array();
+y[1]=new Array();
+y[2]=new Array();
+for(i=0;i<2;i++)
+{
+document.write("<br>");
+for(j=0;j<2;j++)
+{
+y[i][j]=parseInt(prompt("enter the integer of Y"));
+}
+document.write(y[i]);
+}
+switch(ch)
+{
+case 1:add();
+break;
+case 2:sub();
+break;
+case 3:mul();
+break;
+}
+function add()
+{
+z=new Array();
+z[0]=new Array();
+z[1]=new Array();
+z[2]=new Array();
+for (i=0;i<2;i++)
+{
+document.write("<br>");
+for(j=0;j<2;j++)
+{
+z[i][j]=x[i][j]+y[i][j];
+}
+document.write(z([i]));
+}
+}
+function sub()
+{
+z=new Array();
+z[0]=new Array();
+z[1]=new Array();
+z[2]=new Array();
+for(i=0;i<2;i++)
+{
+document.write("<br>");
+for(j=0;j<2;j++)
+{
+z[i][j]=x[i][j]-y[i][j];
+}
+document.write(z[i]);
+}
+}
+function mul()
+{
+z=new Array();
+z[0]=new Array();
+z[1]=new Array();
+z[2]=new Array();
+for(i=0;i<2;i++)
+{
+document.write("<br>");
+for(j=0;j<2;j++)
+{
+for(k=0;k<2;k++)
+{
+sum=sum+x[i][k]*y[k][j];
+}
+z[i][j]=sum;
+sum=0;
+document.write(z[i]);
+}
+}
+}
+		</script>
+	</body>
+</html>
